@@ -39,9 +39,9 @@ pFile=fopen("results.csv", "a");
   
   // workload
 
-  for(i=0;i < NROWS;i++){
-	for(j=0;j < NCOLS; j++){			
-		table[j*NROWS + i] = table[j*NROWS + i] + 2.0;
+  for(i=0;i < NCOLS;i++){
+	for(j=0;j < NROWS; j++){			
+		table[j*NCOLS + i] = table[j*NCOLS + i] + 2.0;
 
 	}
 }
